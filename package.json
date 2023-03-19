@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js"
   },
   "author": "Anand MS",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "config": "^3.3.9",
     "express": "^4.18.2",
     "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
